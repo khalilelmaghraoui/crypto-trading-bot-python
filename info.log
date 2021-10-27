@@ -1,0 +1,33 @@
+2021-07-03 17:14:59,303 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-07-03 17:15:00,207 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2021-07-03 17:15:00,222 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-07-03 17:15:01,155 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1625328900222&signature=8a857f55f196ea5811164e8e43474a2215c95faa5e302eced04e594bd1b127ca HTTP/1.1" 401 96
+2021-07-03 17:15:01,155 ERROR :: Error while making GET request to /fapi/v2/account: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action, request ip: 41.142.190.28'} (error code 401)
+2021-07-03 17:15:01,160 INFO :: Binance Futures Client successfully initialized
+2021-07-03 17:15:01,164 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2021-07-03 17:15:01,521 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2021-07-03 17:15:01,523 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2021-07-03 17:15:01,846 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2021-07-03 17:15:01,846 INFO :: Bitmex Client successfully initialized
+2021-07-03 17:15:02,268 INFO :: Bitmex connection opened
+2021-07-03 17:15:02,337 INFO :: Binance connection opened
+2021-07-03 17:17:46,348 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-07-03 17:17:47,281 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BAKEUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2021-07-03 17:39:48,568 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-07-03 17:39:49,539 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2021-07-03 17:39:49,548 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-07-03 17:39:50,446 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1625330389545&signature=6ad25bb8235c382c38b10739164aaacab7f3c6fe7a9ebb0176821c2add670408 HTTP/1.1" 200 None
+2021-07-03 17:39:50,451 INFO :: Binance Futures Client successfully initialized
+2021-07-03 17:39:50,454 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2021-07-03 17:39:51,635 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2021-07-03 17:39:51,635 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2021-07-03 17:39:51,719 INFO :: Binance connection opened
+2021-07-03 17:39:52,019 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2021-07-03 17:39:52,019 INFO :: Bitmex Client successfully initialized
+2021-07-03 17:39:52,451 INFO :: Bitmex connection opened
+2021-07-03 17:40:25,989 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-07-03 17:40:26,890 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BATUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2021-07-03 17:43:04,221 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2021-07-03 17:43:05,146 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BNTUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2021-07-03 17:55:08,720 ERROR :: error from callback <bound method BinanceClient._on_close of <binance.BinanceClient object at 0x00000280ACABC040>>: _on_close() takes 2 positional arguments but 4 were given
+2021-07-03 17:55:09,089 ERROR :: error from callback <bound method BitmexClient._on_close of <bitmex.BitmexClient object at 0x00000280ACABC070>>: _on_close() takes 2 positional arguments but 4 were given
